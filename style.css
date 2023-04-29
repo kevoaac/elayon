@@ -83,7 +83,10 @@ section {
     background-color: #c7bee6;
 }
 
-.galeria img {}
+.galeria img {
+    max-width: 250px;
+    min-width: 100px;
+}
 
 
 
