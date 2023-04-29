@@ -1,0 +1,98 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgb(136, 234, 229), rgb(236, 165, 132));
+
+}
+
+header {
+    background-color: rgb(62, 126, 121);
+    display: flex;
+    align-items: center;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1rem;
+
+}
+
+header img {
+    width: 60px;
+    object-fit: cover;
+}
+
+header h1 {
+    color: #ffffff;
+}
+
+section {
+    width: 100%;
+}
+
+.iniciales {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    background-color: seashell;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin: .5rem 0;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ff7e29;
+    border-radius: 10px 10px 0 0;
+    padding: 0.5rem 0;
+}
+
+.lista h2 {}
+
+.galeria {
+    display: flex;
+
+}
+
+.galeria div {
+    width: 30%;
+    height: auto;
+    border-color: rgb(0, 0, 0);
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1rem;
+
+    background-color: #c7bee6;
+}
+
+.galeria img {}
+
+
+
+
+.lista2 ul {
+    font-size: 20px;
+    background-color: rgb(48, 48, 211);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+
+}
